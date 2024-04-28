@@ -17,7 +17,7 @@ This repository contains the implementation of an action recognition model using
 ## Dataset
 The dataset used for training and testing the action recognition model is available in the 'data' directory. It includes labeled examples of various actions captured from video footage.
 
-**Note:** Due to file size limitations, the dataset is hosted on Google Drive. You can download it from [here](link_to_dataset_on_google_drive).
+**Note:** Due to file size limitations, the dataset is hosted on Google Drive. You can download it from [here]([link_to_dataset_on_google_drive](https://drive.google.com/drive/folders/1AHNiHKRW-BIvXKF5GlQDHNtVbsZPgPYU?usp=drive_link)).
 
 ## Usage
 1. Clone this repository to your local machine.
