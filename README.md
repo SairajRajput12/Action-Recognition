@@ -1,44 +1,40 @@
-usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           [--config-env=<name>=<envvar>] <command> [<args>]
 
-These are common Git commands used in various situations:
+---
 
-start a working area (see also: git help tutorial)
-   clone     Clone a repository into a new directory
-   init      Create an empty Git repository or reinitialize an existing one
+# Action Recognition Model using Artificial Neural Networks
 
-work on the current change (see also: git help everyday)
-   add       Add file contents to the index
-   mv        Move or rename a file, a directory, or a symlink
-   restore   Restore working tree files
-   rm        Remove files from the working tree and from the index
+## Overview
+This repository contains the implementation of an action recognition model using Artificial Neural Networks (ANN). The model is trained and tested on a provided dataset, which is available in the 'data' directory.
 
-examine the history and state (see also: git help revisions)
-   bisect    Use binary search to find the commit that introduced a bug
-   diff      Show changes between commits, commit and working tree, etc
-   grep      Print lines matching a pattern
-   log       Show commit logs
-   show      Show various types of objects
-   status    Show the working tree status
+## Requirements
+- Python 3.10 or above it
+- Jupyter Notebook
+- TensorFlow
+- Keras
+- Pandas
+- NumPy
 
-grow, mark and tweak your common history
-   branch    List, create, or delete branches
-   commit    Record changes to the repository
-   merge     Join two or more development histories together
-   rebase    Reapply commits on top of another base tip
-   reset     Reset current HEAD to the specified state
-   switch    Switch branches
-   tag       Create, list, delete or verify a tag object signed with GPG
+## Dataset
+The dataset used for training and testing the action recognition model is available in the 'data' directory. It includes labeled examples of various actions captured from video footage.
 
-collaborate (see also: git help workflows)
-   fetch     Download objects and refs from another repository
-   pull      Fetch from and integrate with another repository or a local branch
-   push      Update remote refs along with associated objects
+**Note:** Due to file size limitations, the dataset is hosted on Google Drive. You can download it from [here](link_to_dataset_on_google_drive).
 
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
+## Usage
+1. Clone this repository to your local machine.
+   ```bash
+   git clone github.com/SairajRajput12/Action-Recognition.git
+   ```
+2. Download the dataset from the provided Google Drive link and place it in the 'data' directory.
+3. Open the Jupyter Notebook 'Final Approach.ipynb' using Jupyter Notebook.
+4. Follow the steps outlined in the notebook to:
+   - Load and preprocess the dataset.
+   - Build and train the ANN model.
+   - Evaluate the model's performance.
+   - Make predictions on new data.
+
+## Note
+- Ensure that you have sufficient computational resources (CPU/GPU) to train the model, especially if working with a large dataset.
+- Feel free to experiment with different architectures, hyperparameters, and preprocessing techniques to improve the model's performance.
+
+---
+
